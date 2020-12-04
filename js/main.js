@@ -1,13 +1,18 @@
-// DARBAS SU TEKSTAIS
+import { TextAnalizer } from './components/text-analizer/TextAnalizer.js';
 
-// Turime teksta (gali buti keli paragrafai).
-// Jame yra sakiniu.
+const textarea = document.querySelector('textarea');
+const submit = document.querySelector('input');
+let text = '';
 
-// Isspausdinti lentele:
-// - kiek yra paragrafu
-// - kiek yra sakiniu
-// - kiek yra zodziu
-// - kiek yra tekstiniu simboliu (isskaitant tarpus)
-// - kiek yra raidziu
-// - kiek yra skaiciu
-// - kiek yra tikriniu zodziu (ivardziai (vardas, pavarde) ir vietovardziai)
+
+submit.addEventListener('click', e => {
+    e.preventDefault();
+    text = textarea.value;
+
+    const analizatorius = new TextAnalizer(text);
+    analizatorius.addLanguage('lt');
+
+    const letterCount = analizatorius.letterCount();
+
+    console.log('Raidziu kiekis:', letterCount);
+})
