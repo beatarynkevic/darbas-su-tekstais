@@ -1,6 +1,6 @@
 # Teksto analize
 
-Pri=ojektas skirtas analizuoti duota teksta, norint issiaiskinti kaip jis sudarytas: paragrafai, sakiniai, zodziai, raides ir t.t. ju kiekis ir pan.
+Projektas skirtas analizuoti duota teksta, norint issiaiskinti kaip jis sudarytas: paragrafai, sakiniai, zodziai, raides ir t.t. ju kiekis ir pan.
 
 # Galimi metodai
 - paragraphCount() - metodas, skirtas suskaiciuoti paragrafu kiekiui tekste;
@@ -16,3 +16,5 @@ Pri=ojektas skirtas analizuoti duota teksta, norint issiaiskinti kaip jis sudary
 paragraphCount() su pvz
 
 # Autorius
+
+Beata ([GitHub](https://github.com/beatarynkevic), [Linkedin](https://www.linkedin.com/in/ana-beata-rynkevi%C4%8D-994b47138/))

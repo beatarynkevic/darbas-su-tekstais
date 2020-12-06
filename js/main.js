@@ -16,3 +16,16 @@ submit.addEventListener('click', e => {
 
     console.log('Raidziu kiekis:', letterCount);
 })
+
+
+const zmogus = {
+    name: 'Any',
+    age: 12
+}
+console.log(zmogus);
+
+const noriuZinoti = 'name';
+console.log(`Jos vardas ${zmogus[noriuZinoti]}`);
+
+const zmogus2 = ['Mia', 'Tom', 'Cleo'];
+console.log(zmogus2[0]);
